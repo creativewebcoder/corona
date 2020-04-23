@@ -35,7 +35,7 @@ class App extends React.Component {
                 </div>
                 <div className={styles.developer}>
                         Developed By 
-                        <a href="http://www.razibhossain.com/" target="_blank">&nbsp;Md. Razib Hossain&nbsp;</a>
+                        <a href="https://www.razibhossain.com/" target="_blank">&nbsp;Md. Razib Hossain&nbsp;</a>
                     </div>
             </div>
         )
