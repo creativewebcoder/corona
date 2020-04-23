@@ -1,11 +1,20 @@
 body {
-    background-color: rgb(250, 250,250);
+    background-color: #66acf8;
+    margin: 0;
+    padding: 0;    
   }
   
   .container {
     display: flex;
     align-items: center;
     flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    background-color: #fefefe;
+    padding-bottom: 50px;
+    box-shadow: 0px 0px 0px 5px #007aff6b;
+    
   }
   
   .image {
@@ -15,8 +24,17 @@ body {
 
   .developer {
     text-align: center;
-    margin: 20px 0;
-
+    padding: 30px 0 30px 0;
+    font-weight: 700;
+    background-color: #66acf8;
+    text-transform: capitalize;
+    width: 100%;
+    color: #fff;
+    font-size: 20px;
+  }
+  .developer a {
+    text-decoration: none;
+    color: #fff;
   }
   
   @media only screen and (max-width: 770px) {
