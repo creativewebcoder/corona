@@ -3,8 +3,8 @@
   "name": "Live Corona Information",
   "icons": [
     {
-      "src": "./images/image.png",
-      "sizes": "377x150",
+      "src": "./images/logo.png",
+      "sizes": "512x512",
       "type": "image/png"
     }
     
