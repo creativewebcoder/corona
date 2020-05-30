@@ -7,12 +7,14 @@ import styles from './Chart.module.css';
 const Charts = ({ data: { confirmed, recovered, deaths }, country }) => {
     const [dailyData, setDailyData] = useState([]);
 
-    useEffect(() => {
-        const fetchApi = async () => {
-            setDailyData(await fetchDailyData());
-        }
-        fetchApi();
-    });
+       
+  useEffect(() => {
+    const fetchApiFn = async () => {
+      setDailyData(await fetchDailyData());
+    };
+
+    fetchApiFn();
+  }, []);
 
     const barChart = (
       confirmed ? (
